@@ -963,6 +963,8 @@
     }
 
     try {
+      bgMusicEl.muted = false;
+      bgMusicEl.volume = 1;
       await bgMusicEl.play();
       musicPlaying = true;
       syncMusicButton();
